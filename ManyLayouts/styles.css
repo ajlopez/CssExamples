@@ -1,0 +1,20 @@
+/* CSS Document */
+* {margin:0;padding:0}
+html {background:#fff}
+body {color:#000;font:100.01%/1.1 "Lucida Sans", Arial, "Times New Roman", Times, sans-serif}
+h1 {font-size:1.2em;margin-bottom:10px}
+h2 {font-size:1.05em;border-left:5px solid #666;padding-left:5px;margin-top:20px}
+h1,h2 {margin-left:10px;font-weight:normal}
+code {display:block;margin-left:25px;padding-bottom:20px}
+ol {margin:8px 0 0 10px}
+ol li {display:inline;margin-right:5px}
+ul {margin-left:10px;margin-top:10px}
+ul li {margin-right:9px;list-style:none}
+img {border:0;margin:10px 0}
+#sub-section div {text-align:center}
+p {margin:10px 10px}
+pre {white-space:normal}
+#header,#menu,#content,#sub-section,#footer {padding:10px 0;font-size:.9em}
+#content div {margin:10px}
+.bold {padding:10px;background:#fff;border:1px dotted #666}
+.highlight {background-color:#ffc}

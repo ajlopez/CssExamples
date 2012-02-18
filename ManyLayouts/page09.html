@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Simple Page With Style 7</title>
+<link href="styles.css" type="text/css" media="screen" rel="stylesheet" />
+<style type="text/css">
+<!--
+html {background:#666}
+#header {background:#fcc}
+#menu {background:#ffc}
+#content {background:#9cf}
+#sub-section {background:#cfc}
+#footer {background:#ccf}
+ul li {display:inline}
+/*******************************************************************/
+body {width:640px;margin:0 auto;text-align:center;background:url(img/background.gif);border:1px solid #666}
+/* MSIE display:inline-block is to make sure MSIE doesn't paint the backround above the containers, the overflow declaration is to make sure the containers do not drop below siblings if content pushes the width (in modern browsers it doesn't drop, but it spawns an orizontal scrollbar)  */
+#header,#menu,#content,#sub-section,#footer {overflow:hidden;display:inline-block;text-align:left}
+#header,#menu,#footer {width:100%} /* safari and opera need this */
+#content,#sub-section {float:left}
+#content {width:79.9%}
+#sub-section {width:20%}
+#footer {clear:left}
+-->
+</style>
+</head>
+<body>
+<div id="header">header</div>
+<div id="menu">menu</div>
+<div id="content">content</div>
+<div id="sub-section">sub-section</div>
+<div id="footer">footer</div>
+</body>
+</html>

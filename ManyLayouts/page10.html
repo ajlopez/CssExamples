@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Simple Page With Style 8</title>
+<link href="styles.css" type="text/css" media="screen" rel="stylesheet" />
+<style type="text/css">
+<!--
+html {background:url(img/background_10.gif) repeat-y 20% 0}
+body {background:url(img/background_1010.gif) repeat-y 80% 0}
+#header {background:#fcc}
+#footer {background:#ccf}
+#content ul li {margin-left:20px;list-style:disc !important}
+#content div {margin-right:20px}
+#content div img {display:inline;vertical-align:middle}
+body {min-width:640px}
+/* MSIE display:inline-block is to make sure MSIE doesn't paint the backround above the containers, the overflow declaration is to make sure the containers do not drop below siblings if content pushes the width (in modern browsers it doesn't drop, but it spawns an orizontal scrollbar)  */
+#header,#menu,#content,#sub-section,#footer {overflow:hidden;display:inline-block}
+#header,#footer  {width:100%} /* safari and opera need this */
+#menu,#content,#sub-section {float:left}
+#content {width:57%;margin-left:20%;display:inline}
+/* opera 7 shoots this container at the top left corner of the viewport */
+#menu {width:18%;margin-left:-77%;display:inline}
+#sub-section {width:22%}
+#footer {clear:both}
+-->
+</style>
+</head>
+<body>
+<div id="header">header</div>
+<div id="menu">menu</div>
+<div id="content">content</div>
+<div id="sub-section">sub-section</div>
+<div id="footer">footer</div>
+</body>
+</html>
